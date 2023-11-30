@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+/* Fonts */
+$font-stack-lato: 'Lato', sans-serif;
+$font-stack-montserrat: 'Montserrat', sans-serif;
+
+
+/* Font Sizes */
+$font-size-h6: 16px;
+$font-size-h5: 18px;
+$font-size-h4: 20px;
+$font-size-h3: 22px;
+$font-size-h2: 26px;
+$font-size-h1: 36px;
+
+/* Colors */
+$color-red-1: #F22539;
+$color-red-2: #C00E20;
+$color-golden: #ECA539;
+$color-gray-1: #BFBFBF;
+$color-gray-2: #5E5E5E;
+$color-gray-3: #353535;
+$color-white-0: #FFF;
+$color-white-1: #F9F9F9;
+$color-white-2: #F5F5F5;
+$color-white-3: #E8E8E8;
+
+:root {
+  --color-red-1: #{$color-red-1};
+  --color-red-2: #{$color-red-2};
+  --color-golden: #{$color-golden};
+  --color-gray-1: #{$color-gray-1};
+  --color-gray-2: #{$color-gray-2};
+  --color-gray-3: #{$color-gray-3};
+  --color-white-0: #{$color-white-0};
+  --color-white-1: #{$color-white-1};
+  --color-white-2: #{$color-white-2};
+  --color-white-3: #{$color-white-3};
+}
